@@ -1,7 +1,7 @@
 const prod = {
   url: {
-    API_BASE_URL: 'https://mybeapp.herokuapp.com',
-    OAUTH2_REDIRECT_URI: 'https://myfeapp.herokuapp.com/oauth2/redirect'
+    API_BASE_URL: 'https://wishmagic-backend.railway.internal',
+    OAUTH2_REDIRECT_URI: 'https://wishmagic-backend.railway.internal/oauth2/redirect'
   }
 }
 
@@ -12,4 +12,4 @@ const dev = {
   }
 }
 
-export const config = process.env.NODE_ENV === 'development' ? dev : prod
+export const config = prod
