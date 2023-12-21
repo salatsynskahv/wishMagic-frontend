@@ -1,7 +1,7 @@
 const prod = {
   url: {
-    API_BASE_URL: 'https://wishmagic-backend.railway.internal',
-    OAUTH2_REDIRECT_URI: 'https://wishmagic-backend.railway.internal/oauth2/redirect'
+    API_BASE_URL: 'https://wishmagic-backend-production.up.railway.app',
+    OAUTH2_REDIRECT_URI: 'https://wishmagic-frontend-production.up.railway.app/oauth2/redirect'
   }
 }
 
@@ -12,4 +12,4 @@ const dev = {
   }
 }
 
-export const config = prod
+export const config =  prod
